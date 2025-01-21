@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 11:15:43 AM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wMjsxMTowMjowMSBBTTsyNjMy"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wNjsxMToxNTo0MyBBTTsyOzI3NTU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="X, Y" type="Integer" array="False" size=""/>
+            <assign variable="Y" expression="0"/>
+            <output expression="&quot;10 bilangan genap pertama&quot;" newline="True"/>
+            <for variable="X" start="2" end="20" direction="inc" step="2">
+                <assign variable="Y" expression="Y + X"/>
+                <output expression="X" newline="True"/>
+            </for>
+            <output expression="&quot;X +Y&quot;" newline="True"/>
+            <output expression="Y" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-12-08 08:40:14 AM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0xMS0yMTswMjo0NjoxOSBQTTsyNjU4"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0xMi0wODswODo0MDoxNCBBTTsxNzsyODA3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nama, jenisMobil, rutePerjalanan" type="String" array="False" size=""/>
+            <declare name="harga, tanggalPenyewaan, pilihan, banyakMobilSewa, totalAkhir" type="Integer" array="False" size=""/>
+            <output expression="&quot;welcome to Car Rent ASKU&quot;" newline="True"/>
+            <output expression="&quot;Masukkan Nama Anda&quot;" newline="True"/>
+            <input variable="nama"/>
+            <output expression="&quot;Pilih jenis mobil:&quot;" newline="True"/>
+            <output expression="&quot;1.L-300&quot;" newline="True"/>
+            <output expression="&quot;2.Innova&quot;" newline="True"/>
+            <output expression="&quot;3.MiniBus&quot;" newline="True"/>
+            <output expression="&quot;4.Bus&quot;" newline="True"/>
+            <input variable="pilihan"/>
+            <output expression="&quot;Pilih Rute Perjalanan:&quot;" newline="True"/>
+            <output expression="&quot;1. Del-Porsea = 30.000&quot;" newline="True"/>
+            <output expression="&quot;2. Del-Balige = 30.000&quot;" newline="True"/>
+            <output expression="&quot;3. Del-Siborong-borong = 50.000&quot;" newline="True"/>
+            <output expression="&quot;4.Del-Tarutung/Dosa = 100.000&quot;" newline="True"/>
+            <input variable="pilihan"/>
+            <if expression="pilihan=1">
+                <then>
+                    <output expression="&quot;1.Del-Porsea = 30.000&quot;" newline="True"/>
+                    <output expression="&quot;Masukkan tanggal penyewaan &quot;" newline="True"/>
+                    <input variable="tanggalPenyewaan"/>
+                    <output expression="&quot;Pesanan Berhasil Dilakukan!&quot;" newline="True"/>
+                    <input variable="pilihan"/>
+                </then>
+                <else>
+                    <if expression="pilihan=2">
+                        <then>
+                            <output expression="&quot;c.Del-Balige = 30.000&quot;" newline="True"/>
+                            <output expression="&quot;Masukkan tanggal penyewaan &quot;" newline="True"/>
+                            <input variable="tanggalPenyewaan"/>
+                            <output expression="&quot;Pesanan Berhasil Dilakukan!&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="pilihan=3">
+                                <then>
+                                    <output expression="&quot;3.Del-Siborong-borong = 50.000&quot;" newline="True"/>
+                                    <output expression="&quot;Masukkan tanggal penyewaan &quot;" newline="True"/>
+                                    <input variable="tanggalPenyewaan"/>
+                                    <output expression="&quot;Pesanan Berhasil Dilakukan!&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="pilihan=4">
+                                        <then>
+                                            <output expression="&quot;4.Del-Tarutung/Dosa = 100.000&quot;" newline="True"/>
+                                            <output expression="&quot;Masukkan tanggal penyewaan &quot;" newline="True"/>
+                                            <input variable="tanggalPenyewaan"/>
+                                            <output expression="&quot;Pesanan Berhasil Dilakukan!&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Pesanan Gagal Dilakukan&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

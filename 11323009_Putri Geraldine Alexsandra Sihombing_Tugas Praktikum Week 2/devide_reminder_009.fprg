@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 09:06:22 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wNjswODoyMzoyNyBQTTsyNjY4"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wNjswOTowNjoyMiBQTTsxOzI3NzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="number1, number2, result, remainder" type="Integer" array="False" size=""/>
+            <output expression="&quot;enter first number&quot;" newline="True"/>
+            <input variable="number1"/>
+            <output expression="&quot;enter second number&quot;" newline="True"/>
+            <input variable="number2"/>
+            <assign variable="result" expression="number1% number2"/>
+            <assign variable="remainder" expression="number1% number2"/>
+            <output expression="result" newline="True"/>
+            <output expression="remainder" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

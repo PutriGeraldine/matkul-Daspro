@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-02 08:42:09 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wMjsxMTowOTo1NSBBTTsyNjQ4"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wMjswODo0MjowOSBQTTsyOzI3NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="volume, phi, r, t" type="Real" array="False" size=""/>
+            <assign variable="phi" expression="3.14"/>
+            <declare name="perulangan" type="Integer" array="False" size=""/>
+            <for variable="perulangan" start="1" end="10" direction="inc" step="1">
+                <output expression="&quot;masukkan r!&quot;" newline="True"/>
+                <input variable="r"/>
+                <output expression="&quot;masukkan t!&quot;" newline="True"/>
+                <input variable="t"/>
+                <assign variable="volume" expression="phi*r*r*t"/>
+                <output expression="volume" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 08:06:38 PM"/>
+        <attribute name="created" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMjsxMDowMzowNCBBTTsyMDk3"/>
+        <attribute name="edited" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMzswODowNjozOCBQTTsyOzIyMzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="h" type="Real" array="False" size=""/>
+            <output expression="&quot;Masukkan suhu air&quot;" newline="True"/>
+            <input variable="h"/>
+            <if expression="h&lt;0">
+                <then>
+                    <output expression="&quot;Wujud air tersebut padat&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="h&lt;100">
+                        <then>
+                            <output expression="&quot;Wujud air tersebut cair&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="h&gt;=100">
+                                <then>
+                                    <output expression="&quot;Wujud air tersebut adalah gas&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Wujud air tidak diketahui&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

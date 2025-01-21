@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-09 08:50:15 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wOTswODo0NTozMSBQTTsyNjcw"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wOTswODo1MDoxNSBQTTsxOzI3NzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hasil" type="Integer" array="False" size=""/>
+            <declare name="cd" type="Real" array="False" size=""/>
+            <assign variable="cd" expression="(421-4)/213"/>
+            <output expression="cd" newline="True"/>
+            <assign variable="hasil" expression="639*cd"/>
+            <output expression="hasil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

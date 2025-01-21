@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Triton 300 SE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 06.24.21 AM"/>
+        <attribute name="created" value="VHJpdG9uIDMwMCBTRTtMQVBUT1AtNFQwT0YzODc7MjAyMy0wOS0wNTswODo1NzowMyBQTTszMjk1"/>
+        <attribute name="edited" value="VHJpdG9uIDMwMCBTRTtMQVBUT1AtNFQwT0YzODc7MjAyMy0wOS0wNTswOTo1MToyNCBQTTsyOzM0MDI="/>
+        <attribute name="edited" value="QXN1cztMQVBUT1AtNFE2TUVSM0Q7MjAyMy0wOS0wNjswNi4yNC4yMSBBTTsxOzI4MDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x, y, a, b, c, d, cd" type="Integer" array="False" size=""/>
+            <assign variable="x" expression="639"/>
+            <assign variable="y" expression="3"/>
+            <assign variable="a" expression="213"/>
+            <assign variable="b" expression="4"/>
+            <assign variable="c" expression="421"/>
+            <assign variable="d" expression="c-b"/>
+            <output expression="&quot;Mencari 213cd&quot;" newline="True"/>
+            <output expression="&quot;213cd = 421-4&quot;" newline="True"/>
+            <output expression="d" newline="True"/>
+            <assign variable="cd" expression="y*a*d/a"/>
+            <output expression="&quot;Mencari 639cd&quot;" newline="True"/>
+            <output expression="&quot;639cd = (3x213) (417/213)&quot;" newline="True"/>
+            <output expression="cd" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

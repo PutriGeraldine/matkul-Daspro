@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Triton 300 SE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 09:14:13 PM"/>
+        <attribute name="created" value="VHJpdG9uIDMwMCBTRTtMQVBUT1AtNFQwT0YzODc7MjAyMy0wOS0wNTsxMTowNDo0NiBBTTszMjcz"/>
+        <attribute name="edited" value="VHJpdG9uIDMwMCBTRTtMQVBUT1AtNFQwT0YzODc7MjAyMy0wOS0wNTsxMToyOTo0MCBBTTsxOzMzODI="/>
+        <attribute name="edited" value="QXN1cztMQVBUT1AtNFE2TUVSM0Q7MjAyMy0wOS0wNjswNi4yMC4yMCBBTTsyOzI4MDE="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wNjswOToxNDoxMyBQTTsxOzI3NzI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hargaSabun" type="Integer" array="False" size=""/>
+            <declare name="hargaShampo" type="Integer" array="False" size=""/>
+            <declare name="hargaSabunWajah" type="Integer" array="False" size=""/>
+            <assign variable="hargaSabun" expression="8000"/>
+            <assign variable="hargaShampo" expression="35000"/>
+            <assign variable="hargaSabunWajah" expression="39000"/>
+            <declare name="jumlahSabun" type="Integer" array="False" size=""/>
+            <declare name="jumlahShampo" type="Integer" array="False" size=""/>
+            <declare name="jumlahSabunWajah" type="Integer" array="False" size=""/>
+            <assign variable="jumlahSabun" expression="2"/>
+            <assign variable="jumlahShampo" expression="2"/>
+            <assign variable="jumlahSabunWajah" expression="2"/>
+            <declare name="totalPembelian" type="Integer" array="False" size=""/>
+            <assign variable="totalPembelian" expression="hargaSabun*jumlahSabun+hargaShampo*jumlahShampo+hargaSabunWajah*jumlahSabunWajah"/>
+            <declare name="uangPakdarwin" type="Integer" array="False" size=""/>
+            <assign variable="uangPakdarwin" expression="310000"/>
+            <declare name="sisaUangPakdarwin" type="Integer" array="False" size=""/>
+            <assign variable="sisaUangPakdarwin" expression="uangPakdarwin-totalPembelian"/>
+            <output expression="&quot;Total Pembelian:&quot; &amp;totalPembelian" newline="True"/>
+            <output expression="&quot;Sisa Uang Pak darwin:&quot; &amp;sisaUangPakdarwin" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

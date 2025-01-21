@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 09:34:26 PM"/>
+        <attribute name="created" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMjswOTo0OTowMyBBTTsyMTE0"/>
+        <attribute name="edited" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMzswOTozNDoyNiBQTTs1OzIyNDE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="x" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan bilangan bulat&quot;" newline="True"/>
+            <input variable="x"/>
+            <if expression="x mod 2 ==0">
+                <then>
+                    <output expression="&quot;adalah bilangan genap&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;adalah bilangan ganjil&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

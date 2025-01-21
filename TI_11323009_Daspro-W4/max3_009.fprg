@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 08:35:10 PM"/>
+        <attribute name="created" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMzswODoyNzoyOCBQTTsyMTMy"/>
+        <attribute name="edited" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMzswODozNToxMCBQTTsxOzIyMzA="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="h, i, j" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan bilangan bulat&quot;" newline="True"/>
+            <input variable="h"/>
+            <input variable="i"/>
+            <input variable="j"/>
+            <if expression="h&gt;=i &amp;&amp; h&gt;=j">
+                <then>
+                    <output expression="&quot;bilangan besar&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="i&gt;=h &amp;&amp; i&gt;=j">
+                        <then>
+                            <output expression="&quot;bilangan terbesar&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="j&gt;=h &amp;&amp; j&gt;=i">
+                                <then>
+                                    <output expression="&quot;bilangan terbesar&quot;" newline="True"/>
+                                </then>
+                                <else/>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

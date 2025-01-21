@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Triton 300 SE"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-06 06.24.51 AM"/>
+        <attribute name="created" value="VHJpdG9uIDMwMCBTRTtMQVBUT1AtNFQwT0YzODc7MjAyMy0wOS0wNTswOToyNDoxMSBQTTszMjg5"/>
+        <attribute name="edited" value="VHJpdG9uIDMwMCBTRTtMQVBUT1AtNFQwT0YzODc7MjAyMy0wOS0wNTswOTo1NDo1OSBQTTsyOzM0MTM="/>
+        <attribute name="edited" value="QXN1cztMQVBUT1AtNFE2TUVSM0Q7MjAyMy0wOS0wNjswNi4yNC41MSBBTTsxOzI4MDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b, n, Un, i" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="2"/>
+            <assign variable="b" expression="3"/>
+            <input variable="n"/>
+            <assign variable="Un" expression="a + (n-1)*b"/>
+            <assign variable="i" expression="a"/>
+            <for variable="Un" start="1" end="n" direction="inc" step="1">
+                <output expression="i" newline="True"/>
+                <assign variable="i" expression="i+b"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

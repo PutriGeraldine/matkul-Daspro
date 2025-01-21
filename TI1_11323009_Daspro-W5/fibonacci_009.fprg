@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-01 02:46:36 PM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0xMC0wMTswMjoxMzozNCBQTTsyNjQ2"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0xMC0wMTswMjo0NjozNiBQTTszOzI3NjQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="n, fn, fn1, fn2, input, loop" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Inputan&quot;" newline="True"/>
+            <assign variable="fn1" expression="0"/>
+            <assign variable="fn2" expression="1"/>
+            <input variable="input"/>
+            <for variable="loop" start="1" end="input" direction="inc" step="1">
+                <assign variable="fn" expression="fn1+fn2"/>
+                <assign variable="fn2" expression="fn1"/>
+                <assign variable="fn1" expression="fn"/>
+                <output expression="fn" newline="True"/>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

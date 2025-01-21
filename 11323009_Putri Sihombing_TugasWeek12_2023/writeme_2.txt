@@ -1,0 +1,8 @@
+009|putri|daspro|90.00
+009|putri|aok|90.00
+009|putri|psw|90.00
+009|putri|matdis|90.00
+009|putri|inggris|90.00
+009|putri|rpl|90.00
+009|putri|delcha|90.00
+009|putri|indig|90.00

@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 09:31:45 PM"/>
+        <attribute name="created" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMzswODo1MDowMSBQTTsyMTE5"/>
+        <attribute name="edited" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMzswOTozMTo0NSBQTTs0OzIyMzg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="masatunggak" type="Integer" array="False" size=""/>
+            <declare name="pokokutang" type="Real" array="False" size=""/>
+            <declare name="peringkatkredit" type="String" array="False" size=""/>
+            <output expression="&quot;Masukkan masa tunggak anda&quot;" newline="True"/>
+            <input variable="masatunggak"/>
+            <output expression="&quot;Masukkan pokok utang anda&quot;" newline="True"/>
+            <input variable="pokokutang"/>
+            <if expression="pokokutang&lt;=100">
+                <then>
+                    <if expression="masatunggak&lt;=6">
+                        <then>
+                            <output expression="&quot;Peringkat utang anda dijadwalkan&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <output expression="&quot;Perangkat utang anda digagalkan&quot;" newline="True"/>
+                        </else>
+                    </if>
+                </then>
+                <else>
+                    <if expression="pokokutang&gt;100">
+                        <then>
+                            <if expression="masatunggak&lt;=12">
+                                <then>
+                                    <output expression="&quot;perangkat utang anda dijadwalkan&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;Perangkat utang anda dibatalkan&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

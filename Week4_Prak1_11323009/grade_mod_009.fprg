@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Asus"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-23 08:24:23 PM"/>
+        <attribute name="created" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMzswODowNjo1NyBQTTsyMTMx"/>
+        <attribute name="edited" value="QXN1cztEQU5JRUw7MjAyMi0wOS0yMzswODoyNDoyMyBQTTsyOzIyMzM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A, B, C, D, E" type="String" array="False" size=""/>
+            <declare name="X" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan nilai kuliah anda:&quot;" newline="True"/>
+            <input variable="X"/>
+            <if expression="X&gt;80">
+                <then>
+                    <output expression="&quot;Anda mendapat Grade A&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="X&gt;=65">
+                        <then>
+                            <output expression="&quot;Anda mendapatkan Grade B&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="X&gt;=50">
+                                <then>
+                                    <output expression="&quot;Anda mendapatkan Grade C&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="X&gt;=35">
+                                        <then>
+                                            <output expression="&quot;Anda mendapatkan Grade D&quot;" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <output expression="&quot;Anda mendapatkan Grade E&quot;" newline="True"/>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

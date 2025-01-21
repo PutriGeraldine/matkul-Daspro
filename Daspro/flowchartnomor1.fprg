@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="sigir"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-05 09:09:25 PM"/>
+        <attribute name="created" value="c2lnaXI7QU5EUkk7MjAyMy0xMC0wNTswNToxOTozNyBQTTsyMTkw"/>
+        <attribute name="edited" value="c2lnaXI7QU5EUkk7MjAyMy0xMC0wNTswOTowOToyNSBQTTsyMjsyMzQ5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="menu, kelilingkubus, luaskubus, kelilingbalok, luasbalok, kelilinglimas, luaslimas, kelilingprisma, luasprisma, kelilingtabung, luastabung, kelilingkerucut, luaskerucut, kelilingbola, luasbola, pilihan, sisikubus, panjangbalok, lebarbalok, tinggibalok, panjangalaslimas, tinggilimas, panjangalasprisma, lebaralasprisma, tinggiprisma, jarijaritabung, tinggitabung, tinggikerucut, jarijarikerucut, jarijaribola" type="Integer" array="False" size=""/>
+            <output expression="&quot;1.kubus&quot;" newline="True"/>
+            <output expression="&quot;2.balok&quot;" newline="True"/>
+            <output expression="&quot;3.limas&quot;" newline="True"/>
+            <output expression="&quot;4.prisma&quot;" newline="True"/>
+            <output expression="&quot;5.tabung&quot;" newline="True"/>
+            <output expression="&quot;6.kerucut&quot;" newline="True"/>
+            <output expression="&quot;7.bola&quot;" newline="True"/>
+            <output expression="&quot;masukkan pilihan&quot;" newline="True"/>
+            <input variable="pilihan"/>
+            <if expression="pilihan=1">
+                <then>
+                    <output expression="&quot;masukkan panjang sisi kubus&quot;" newline="True"/>
+                    <input variable="sisikubus"/>
+                    <assign variable="kelilingkubus" expression="12*sisikubus"/>
+                    <assign variable="luaskubus" expression="6*sisikubus*sisikubus"/>
+                    <output expression="kelilingkubus" newline="True"/>
+                    <output expression="luaskubus" newline="True"/>
+                </then>
+                <else>
+                    <if expression="pilihan = 2">
+                        <then>
+                            <output expression="&quot;masukkan panjang balok&quot;" newline="True"/>
+                            <input variable="panjangbalok"/>
+                            <output expression="&quot;masukkan lebar balok&quot;" newline="True"/>
+                            <input variable="lebarbalok"/>
+                            <output expression="&quot;masukkan tinggi balok&quot;" newline="True"/>
+                            <input variable="tinggibalok"/>
+                            <assign variable="kelilingbalok" expression="4*panjangbalok+4*lebarbalok+4*tinggibalok"/>
+                            <assign variable="luasbalok" expression="panjangbalok*lebarbalok+lebarbalok*tinggibalok+panjangbalok*tinggibalok+panjangbalok*lebarbalok+lebarbalok*tinggibalok+panjangbalok*tinggibalok"/>
+                            <output expression="kelilingbalok" newline="True"/>
+                            <output expression="luasbalok" newline="True"/>
+                        </then>
+                        <else>
+                            <if expression="pilihan=3">
+                                <then>
+                                    <output expression="&quot;masukkan panjang alas limas&quot;" newline="True"/>
+                                    <input variable="panjangalaslimas"/>
+                                    <output expression="&quot;masukkan tinggi limas&quot;" newline="True"/>
+                                    <input variable="tinggilimas"/>
+                                    <assign variable="luaslimas" expression="(panjangalaslimas*panjangalaslimas)+4*(0.5*panjangalaslimas*tinggilimas)"/>
+                                    <output expression="luaslimas" newline="True"/>
+                                </then>
+                                <else>
+                                    <if expression="pilihan=4">
+                                        <then>
+                                            <output expression="&quot;masukkan panjang alas prisma&quot;" newline="True"/>
+                                            <input variable="panjangalasprisma"/>
+                                            <output expression="&quot;masukkan lebar alas prisma&quot;" newline="True"/>
+                                            <input variable="lebaralasprisma"/>
+                                            <output expression="&quot;masukkan tinggi prisma&quot;" newline="True"/>
+                                            <input variable="tinggiprisma"/>
+                                            <assign variable="luasprisma" expression="2*((panjangalasprisma*lebaralasprisma)+(panjangalasprisma*tinggiprisma)+(lebaralasprisma*tinggiprisma))"/>
+                                            <output expression="luasprisma" newline="True"/>
+                                        </then>
+                                        <else>
+                                            <if expression="pilihan=5">
+                                                <then>
+                                                    <output expression="&quot;masukkan jari jari tabung&quot;" newline="True"/>
+                                                    <input variable="jarijaritabung"/>
+                                                    <output expression="&quot;masukkan tinggi tabung&quot;" newline="True"/>
+                                                    <input variable="tinggitabung"/>
+                                                    <assign variable="luastabung" expression="2*3.14*jarijaritabung*(jarijaritabung+tinggitabung)"/>
+                                                    <output expression="luastabung" newline="True"/>
+                                                </then>
+                                                <else>
+                                                    <if expression="pilihan=6">
+                                                        <then>
+                                                            <output expression="&quot;masukkan jari jari kerucut&quot;" newline="True"/>
+                                                            <input variable="jarijarikerucut"/>
+                                                            <output expression="&quot;masukkan tinggi kerucut&quot;" newline="True"/>
+                                                            <input variable="tinggikerucut"/>
+                                                            <assign variable="luaskerucut" expression="3.14*jarijarikerucut * (jariarikerucut + &#8730;(jariarikerucut * jarijarikerucut) + tinggikerucut * tinggikerucut));"/>
+                                                            <output expression="luaskerucut" newline="True"/>
+                                                        </then>
+                                                        <else>
+                                                            <if expression="pilihan=7">
+                                                                <then>
+                                                                    <output expression="&quot;masukkan jari jari bola&quot;" newline="True"/>
+                                                                    <input variable="jarijaribola"/>
+                                                                    <assign variable="luasbola" expression="4*3.14*jarijaribola*jarijaribola"/>
+                                                                    <output expression="luasbola" newline="True"/>
+                                                                </then>
+                                                                <else/>
+                                                            </if>
+                                                        </else>
+                                                    </if>
+                                                </else>
+                                            </if>
+                                        </else>
+                                    </if>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

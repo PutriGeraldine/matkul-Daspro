@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-01 10:25:09 AM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wMTsxMDoxNjowMiBBTTsyNjM2"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0wMTsxMDoyNTowOSBBTTsxOzI3NTE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="A" type="Integer" array="False" size=""/>
+            <input variable="A"/>
+            <if expression="A mod 7 = 0">
+                <then>
+                    <output expression="&quot;Bilangan adalah kelipatan 7&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Bilangan bukan kelipatan 7&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

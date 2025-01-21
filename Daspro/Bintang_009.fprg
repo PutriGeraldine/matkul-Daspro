@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="ASUS"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-10-06 09:41:21 AM"/>
+        <attribute name="created" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0xMC0wNjswOTozNTo1NiBBTTsyNjUx"/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0xMC0wNjswOTo0MToyMSBBTTsxOzI3NDg="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="luasPersegi, tinggiPersegi, i, j" type="Integer" array="False" size=""/>
+            <output expression="&quot;Masukkan Jumlah Baris&quot;" newline="True"/>
+            <input variable="tinggiPersegi"/>
+            <output expression="&quot;Masukkan Jumlah Bintang&quot;" newline="True"/>
+            <input variable="luasPersegi"/>
+            <for variable="i" start="1" end="tinggiPersegi" direction="inc" step="1">
+                <for variable="j" start="1" end="luasPersegi" direction="inc" step="1">
+                    <output expression="&quot; *&quot;" newline="True"/>
+                </for>
+            </for>
+        </body>
+    </function>
+</flowgorithm>

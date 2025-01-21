@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-15 08:18:12 AM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtM1JKSENLRUQ7MjAyMy0wOS0xMzswODo1MTozNSBQTTsyNzY4"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtM1JKSENLRUQ7MjAyMy0wOS0xMzswOToxMDo1MiBQTTsxOzI4NzE="/>
+        <attribute name="edited" value="QVNVUztMQVBUT1AtSUwwT0tTQTg7MjAyMy0wOS0xNTswODoxODoxMiBBTTs3OzI3NjU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="word1, word2, word3, word4" type="String" array="False" size=""/>
+            <output expression="&quot;masukkan word 1&quot;" newline="True"/>
+            <input variable="word1"/>
+            <output expression="&quot;masukkan word 2&quot;" newline="True"/>
+            <input variable="word2"/>
+            <output expression="&quot;masukkan word 3&quot;" newline="True"/>
+            <input variable="word3"/>
+            <output expression="&quot;masukkan word 4&quot;" newline="True"/>
+            <input variable="word4"/>
+            <output expression="&quot; word 1 adalah &quot; &amp;word4&amp; &quot; word 2 adalah &quot; &amp;word3&amp; &quot; word 3 adalah &quot; &amp;word4&amp; &quot; word 4 adalah &quot; &amp;word1" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-14 10:12:57 AM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtM1JKSENLRUQ7MjAyMy0wOS0xNDsxMDowNjo0MiBBTTsyNzQ1"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtM1JKSENLRUQ7MjAyMy0wOS0xNDsxMDoxMjo1NyBBTTsxOzI4NTY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pesan, hasil" type="String" array="False" size=""/>
+            <output expression="&quot;masukkan pesan&quot;" newline="True"/>
+            <input variable="pesan"/>
+            <assign variable="hasil" expression="&quot;help me !&quot;"/>
+            <output expression="hasil" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

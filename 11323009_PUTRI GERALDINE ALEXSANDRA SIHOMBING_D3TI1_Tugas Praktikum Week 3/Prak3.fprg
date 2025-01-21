@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="3.0">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="User"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-13 09:25:29 PM"/>
+        <attribute name="created" value="VXNlcjtMQVBUT1AtM1JKSENLRUQ7MjAyMy0wOS0xMzswOToyMTo1OSBQTTsyNzcy"/>
+        <attribute name="edited" value="VXNlcjtMQVBUT1AtM1JKSENLRUQ7MjAyMy0wOS0xMzswOToyNToyOSBQTTsxOzI4ODE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="hobby1, hobby2, hobby3" type="String" array="False" size=""/>
+            <assign variable="hobby1" expression="makan"/>
+            <assign variable="hobby2" expression="menari"/>
+            <assign variable="hobby3" expression="menyanyi"/>
+            <output expression="hobby1" newline="True"/>
+            <output expression="hobby2" newline="True"/>
+            <output expression="hobby3" newline="True"/>
+            <output expression="&quot;makan menari menyanyi&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
